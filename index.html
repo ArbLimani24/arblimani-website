@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dashboard Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="sidebar">
+        <img src="assets/logo.png" height="70">
+        <h1>AsmrProg</h1>
+        <aside>
+            <div class="links">
+                <!--overview-->
+                <div class="item" id="active" onclick="active();">
+                    <i class='bx bx-home-alt-2' title="Overview"></i>
+                    <a href="#" class="a">Overview</a>
+                </div>
+                <!--Course-->
+                <div class="item2" onclick="active2();">
+                    <i class='bx bx-grid-alt'></i>
+                    <a href="#" class="a">Course</a>
+                </div>
+                <!--Resources-->
+                <div class="item3" onclick="active3();">
+                    <i class='bx bx-folder'></i>
+                    <a href="#" class="a">Resources</a>
+                </div>
+                <!--Message-->
+                <div class="item4" onclick="active4();">
+                    <i class='bx bx-message-square-dots'></i>
+                    <a href="#" class="a">Message</a>
+                </div>
+                <!--settings-->
+                <div class="item5" onclick="active5();">
+                    <i class='bx bx-cog'
+                        style="
+                            color: rgb(25, 166, 166);
+                        "></i>
+                    <a href="#" class="a">Settings</a>
+                </div>
+            </div>
+            <!--image-->
+            <img alt="pro.png" src="https://github.com/AsmrProg-YT/Dashboard-Designs/blob/master/Dashboard%20Design%20%2301/assets/pro.png?raw=true" data-hpc="true" class="image" height="200">
+
+            <!--Uprgrade your plan card-->
+            <section>
+                <div class="planCard">
+                    <h3>Uprgrade Your Plan</h3>
+                    <div class="link">
+                        <a href="#">Go to <b>PRO</b></a>
+                        <i class='bx bxs-chevron-right'></i>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </section>
+        </aside>
+        <!--end of the sidebar-->
+
+        <div>
+            <!--main container-->
+            <main class="main">
+                <h2>Hello <span><sup>ARB</sup></span>,welcome back!</h2>
+                <h1 class="h1">My Courses</h1> <label>View All</label>
+                <!--search input-->
+                <div class="search">
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search..." class="inp">
+                </div>
+
+                <!--new section card-->
+                <section class="NewSection">
+                    <!--locations card-->
+                    <div class="location">
+                        <a href="#">Locations</a>
+                        <p>35 Lessons</p>
+                        <div class="circle1">
+                            <svg class="circle2">
+                                <circle cx="38" cy="38" r="36" class="circle"></circle>
+                            </svg>
+                            <h4>75%</h4>
+                            <i class='bx bx-map-pin'></i>
+                        </div>
+                    </div>
+                    <!--pepole card-->
+                    <div class="people">
+                        <a href="#">People</a>
+                        <p>305 Lessons</p>
+                        <div class="circle3">
+                            <svg class="circle2">
+                                <circle cx="38" cy="38" r="36" class="circle"></circle>
+                            </svg>
+                            <h4>96%</h4>
+                            <i class='bx bx-user-voice'></i>
+                        </div>
+                    </div>
+
+                    <!--AirPort card-->
+                    <div class="AirPort">
+                        <a href="#">AirPort</a>
+                        <p>705 Lessons</p>
+                        <div class="circle4">
+                            <svg class="circle5">
+                                <circle cx="38" cy="38" r="36" class="circle"></circle>
+                            </svg>
+                            <h4>98%</h4>
+                            <i class='bx bxs-plane-land'></i>
+                        </div>
+                    </div>
+                    <!--places card-->
+                    <div class="Places">
+                        <a href="#">Places</a>
+                        <p>24 Lessons</p>
+                        <div class="circle7">
+                            <svg class="circle6">
+                                <circle cx="38" cy="38" r="36" class="circle"></circle>
+                            </svg>
+                            <h4>48%</h4>
+                            <i class='bx bxs-castle'></i>
+                        </div>
+                    </div>
+                    <!--end of My Courses-->
+                    <div>
+                        <div class="planning">
+                            <h1>Planning</h1>
+                            <input type="date">
+                            <!--plannings cards-->
+                            <div class="planning-cards">
+                                <div class="reading-card">
+                                    <i class='bx bx-book-alt'></i>
+                                    <div class="details">
+                                        <h5>Reading - Topic 1</h5>
+                                        <p>8:00 - 10:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class='bx bx-dots-vertical-rounded'></i>
+                    </div>
+                    <!--card #2-->
+                    <div class="planning" style="margin-top: -20px;">
+                        <!--plannings cards-->
+                        <div class="planning-cards">
+                            <div class="reading-card">
+                                <i class='bx bx-headphone' style="background-color: #E2EDD2; color: #8AC53E;"></i>
+                                <div class="details">
+                                    <h5>Listening - Topic 2</h5>
+                                    <p>15:00 - 16:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="icon1">
+                    <i class='bx bx-dots-vertical-rounded'></i>
+                </div>
+
+                <!--card #3-->
+                <div class="planning" style="margin-top: -214px; margin-left: 290px;">
+                    <!--plannings cards-->
+                    <div class="planning-cards">
+                        <div class="reading-card">
+                            <i class='bx bx-edit-alt' style="background-color: #F9E5D2; color: #FF993A;"></i>
+                            <div class="details">
+                                <h5>Writing - Topic 3</h5>
+                                <p>13:00 - 14:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="icon2">
+                <i class='bx bx-dots-vertical-rounded'></i>
+            </div>
+
+            <!--card #4-->
+            <div class="planning" style="margin-top: -1px; margin-left: 310px;">
+                    <!--plannings cards-->
+                    <div class="planning-cards">
+                        <div class="reading-card">
+                            <i class='bx bx-volume-low' style="background-color: #F9F0D3; color: #FF993A;"></i>
+                            <div class="details">
+                                <h5>Listening - Topic 4</h5>
+                                <p>12:00 - 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                    <div class="icon3">
+                        <i class='bx bx-dots-vertical-rounded'></i>
+                    </div>
+                    <div class="profile-card">
+                        <div class="profile">
+                            <img src="assets/profile.jpg">
+                            <div class="name">
+                                <h5>Arb Limani</h5>
+                                <a href="#">Basic Plan</a>
+                                <div class="icon4">
+                                    <i class='bx bxs-chevron-right'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main2">
+                        <div class="main-card">
+                            <div class="logo-card">
+                                <!--asmrprog image-->
+                                <img src="assets/logo.png">
+                                <h5>AsmrProg</h5>
+                                <p>Frontend developer</p>
+                                <h1>New Topics</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="planning" style="margin-top: -600px; margin-left: 750px;">
+                        <!--plannings cards-->
+                        <div class="planning-cards">
+                            <div class="reading-card">
+                                <i class='bx bxs-music' style="background-color: #F9F0D3; color: #FF993A;"></i>
+                                <div class="details">
+                                    <h5>Music - Topic 6</h5>
+                                    <p>18:00 - 18:40</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--next topic-->
+                    <div class="planning" style="margin-top: 10px; margin-left: 750px;">
+                        <!--plannings cards-->
+                        <div class="planning-cards">
+                            <div class="reading-card">
+                                <i class='bx bx-code-alt' style="background-color: #E2EDD2; color: #8AC53E;"></i>
+                                <div class="details">
+                                    <h5>Coding - Topic 7</h5>
+                                    <p>18:55 - 23:30</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--next topic-->
+                    <div class="planning" style="margin-top: 10px; margin-left: 750px;">
+                        <!--plannings cards-->
+                        <div class="planning-cards">
+                            <div class="reading-card">
+                                <i class='bx bx-book-alt' style="background-color: #ff5500c8; color: #ff1100a5;"></i>
+                                <div class="details">
+                                    <h5>Reading - Topic 8</h5>
+                                    <p>23:30 - 24:30</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <!--end of the main container-->
+                <div class="line2"></div>
+        </div>
+    </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

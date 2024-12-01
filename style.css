@@ -1,0 +1,620 @@
+/* css code */
+
+body{
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+h1{
+  font-size: 2em;
+  font-weight: 400;
+  position: relative !important;
+  top: -80px !important;
+  left: 75px !important;
+}
+
+.item{
+  margin-top: -60px;
+  font-size: 22px;
+  position: relative !important;
+  left: 30px !important;
+  cursor: pointer;
+}
+
+.item2{
+  margin-top: -60px;
+  font-size: 22px;
+  position: relative !important;
+  left: 30px !important;
+  margin-top: 20px !important;
+  cursor: pointer;
+}
+
+.item3{
+  margin-top: -60px;
+  font-size: 22px;
+  position: relative !important;
+  left: 30px !important;
+  margin-top: 20px !important;
+  cursor: pointer;
+}
+
+.item4{
+  margin-top: -60px;
+  font-size: 22px;
+  position: relative !important;
+  left: 30px !important;
+  margin-top: 20px !important;
+  cursor: pointer;
+}
+
+.item5{
+  margin-top: -60px;
+  font-size: 22px;
+  position: relative !important;
+  left: 30px !important;
+  margin-top: 20px !important;
+  cursor: pointer;
+}
+
+.sidebar{
+  position: relative;
+  top: 20px;
+  margin-left: 20px !important;
+}
+
+.links{
+  position: relative !important;
+  top: 10px;
+  left: -20px;
+}
+
+.a{
+  position: relative !important;
+  left: 20px;
+}
+
+.image{
+  position: relative !important;
+  top: 50px;
+}
+
+.planCard{
+  background: #EBF6FF;
+    height: 60px;
+    position: relative;
+    top: 68px !important;
+    width: 260px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 4px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.planCard h3{
+  font-size: 17px;
+  font-weight: 300 !important;
+  position: relative;
+  top: -20px !important;
+  margin-left: 10px !important;
+  cursor: text !important;
+}
+
+.link{
+  position: relative;
+  font-size: 20px !important;
+  top: -10px !important;
+  left: 10px !important;
+  color: rgb(0, 204, 255);
+  cursor: pointer;
+}
+
+.link a{
+  color: rgb(0, 204, 255) !important;
+  cursor: text;
+}
+
+.line{
+  border-left: 2px solid rgb(189, 188, 188) !important;
+  height: 950px !important;
+  position: relative;
+  top: -750px !important;
+  left: 290px !important;
+}
+
+h2{
+  position: relative;
+  top: -1580px !important;
+  left: 350px !important;
+  font-weight: 400;
+  color: rgb(0, 204, 255) !important;
+  cursor: text;
+}
+
+h2 span{
+  font-weight: 550 !important;
+  cursor: text;
+}
+
+.h1{
+  position: relative;
+  top: -1570px !important;
+  left: 350px !important;
+  font-weight: 400;
+  color: #000;
+  cursor: text;
+}
+
+label{
+  position: relative;
+  top: -1615px !important;
+  left: 540px !important;
+  font-weight: 400;
+  color: rgb(255, 255, 255) !important;
+  cursor: pointer !important;
+}
+
+.search{
+  position: relative;
+  top: -1634px !important;
+  left: 750px !important;
+  font-weight: 400;
+  color: rgb(255, 255, 255) !important;
+  cursor: pointer !important;
+}
+
+.search input[type="text"]{
+  border: none;
+    font-size: 14px;
+    width: 80px;
+    outline: none;
+}
+
+.search i{
+  font-size: 20px;
+    color: #BDBDBD;
+}
+
+.NewSection .location{
+  background-color: #0069D9 !important;
+  height: 156px !important;
+  width: 300px !important;
+  border-radius: 20px !important;
+  position: relative;
+  top: -1600px !important;
+  margin-left: 340px;
+  color: #fff;
+}
+
+.NewSection .location a{
+  position: relative;
+  top: 15px !important;
+  margin-left: 20px;
+  font-size: 20px !important;
+  color: #fff !important;
+  cursor: text;
+}
+
+.NewSection .location p{
+  color: rgb(249, 248, 248);
+  position: relative;
+  top: 6px !important;
+  margin-left: 20px !important;
+  font-size: 13px;
+}
+
+main svg .circle{
+  fill: none;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(10px, 5px);
+}
+
+main  svg .circle{
+  stroke: rgb(8, 89, 7);
+  stroke-dashoffset: -30;
+  position: relative;
+  stroke-dasharray: 160;
+}
+
+h4{
+  position: relative;
+  top: -142px !important;
+  left: 33px !important;
+  font-weight: 400;
+  color: #fff;
+  cursor: text;
+}
+
+.circle1 i{
+  position: relative;
+  top: -230px !important;
+  left: 190px !important;
+  color: #fff !important;
+  font-size: 100px !important;
+}
+
+
+/* people card */
+.NewSection .people{
+  background-color: #FF9D34 !important;
+  height: 156px !important;
+  width: 300px !important;
+  border-radius: 20px !important;
+  position: relative;
+  top: -1756px !important;
+  margin-left: 680px;
+  color: #fff;
+}
+
+.NewSection .people a{
+  position: relative;
+  top: 15px !important;
+  margin-left: 20px;
+  font-size: 20px !important;
+  color: #fff !important;
+  cursor: text;
+}
+
+.NewSection .people p{
+  color: rgb(249, 248, 248);
+  position: relative;
+  top: 6px !important;
+  margin-left: 20px !important;
+  font-size: 13px;
+}
+
+.circle3 svg .circle{
+  fill: none;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(10px, 5px);
+}
+
+.circle3  svg .circle{
+  stroke: rgb(255, 0, 13);
+  stroke-dashoffset: -30;
+  position: relative;
+  stroke-dasharray: 160;
+}
+
+.circle3 i{
+  position: relative;
+  top: -230px !important;
+  left: 190px !important;
+  color: #fff !important;
+  font-size: 100px !important;
+}
+
+/* airport */
+.NewSection .AirPort{
+  background-color: #87B838 !important;
+  height: 156px !important;
+  width: 300px !important;
+  border-radius: 20px !important;
+  position: relative;
+  top: -1736px !important;
+  margin-left: 340px;
+  color: #fff;
+}
+
+.NewSection .AirPort a{
+  position: relative;
+  top: 15px !important;
+  margin-left: 20px;
+  font-size: 20px !important;
+  color: #fff !important;
+  cursor: text;
+}
+
+.NewSection .AirPort p{
+  color: rgb(249, 248, 248);
+  position: relative;
+  top: 6px !important;
+  margin-left: 20px !important;
+  font-size: 13px;
+}
+
+.circle4 svg .circle{
+  fill: none;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(10px, 5px);
+}
+
+.circle4 svg .circle{
+  stroke: rgb(250, 250, 250);
+  stroke-dashoffset: -20;
+  position: relative;
+  stroke-dasharray: 294px;
+}
+
+.circle4 i{
+  position: relative;
+  top: -230px !important;
+  left: 190px !important;
+  color: #fff !important;
+  font-size: 100px !important;
+}
+
+/* places */
+
+.NewSection .Places{
+  background-color: #ffc31c !important;
+  height: 156px !important;
+  width: 300px !important;
+  border-radius: 20px !important;
+  position: relative;
+  top: -1892px !important;
+  margin-left: 680px;
+  color: #fff;
+}
+
+.NewSection .Places a{
+  position: relative;
+  top: 15px !important;
+  margin-left: 20px;
+  font-size: 20px !important;
+  color: #fff !important;
+  cursor: text;
+}
+
+.NewSection .Places p{
+  color: rgb(249, 248, 248);
+  position: relative;
+  top: 6px !important;
+  margin-left: 20px !important;
+  font-size: 13px;
+}
+
+.circle7 svg .circle{
+  fill: none;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(10px, 5px);
+}
+
+.circle7 svg .circle{
+  stroke: rgb(250, 250, 250);
+  stroke-dashoffset: -20;
+  position: relative;
+  stroke-dasharray: 104px;
+}
+
+.circle7 i{
+  position: relative;
+  top: -230px !important;
+  left: 190px !important;
+  color: #fff !important;
+  font-size: 100px !important;
+}
+
+.main{
+  position: relative;
+  top: -20px !important;
+}
+
+
+.planning h1{
+  position: relative;
+  top: -1900px !important;
+  left: 342px !important;
+  font-weight: 400;
+  color: #000;
+  cursor: text;
+}
+
+/* plannig cards */
+.planning input[type="date"]{
+  position: relative;
+  top: -1960px !important;
+  left: 750px !important;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.planning .planning-cards .reading-card{
+  background-color: #F7F7F7 !important;
+  height: 80px !important;
+  width: 280px;
+  border-radius: 20px !important;
+  position: relative;
+  top: -1955px !important;
+  margin-left: 330px;
+}
+
+
+.planning .planning-cards .reading-card i{
+  font-size: 30px !important;
+  position: relative;
+  top: 15px;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 12px;
+  margin-left: 10px;
+  background: #D1E6F9;
+  color: #369FFF;
+  cursor: pointer;
+}
+
+.planning .planning-cards .reading-card .details h5{
+  position: relative;
+  top: -45px !important;
+  margin-left: 70px !important;
+  cursor: text;
+}
+
+.planning .planning-cards .reading-card .details p{
+  font-size: 13px;
+  position: relative;
+  color: rgb(180, 180, 180) !important;
+  top: -65px !important;
+  margin-left: 70px !important;
+  cursor: text;
+}
+
+.icon i{
+  position: relative;
+  top: -2005px !important;
+  left: 570px !important;
+  font-size: 25px !important;
+  color: #000;
+  cursor: pointer;
+}
+
+.icon1 i{
+  position: relative;
+  top: -2025px !important;
+  left: 570px !important;
+  font-size: 25px !important;
+  color: #000;
+  cursor: pointer;
+}
+
+.icon2 i{
+  position: relative;
+  top: -1989px !important;
+  left: 880px !important;
+  font-size: 25px !important;
+  color: #000;
+  cursor: pointer;
+}
+
+.icon3 i{
+  position: relative;
+  top: -2005px !important;
+  left: 880px !important;
+  font-size: 25px !important;
+  color: #000;
+  cursor: pointer;
+}
+
+.line2{
+  border-left: 2px solid rgb(189, 188, 188) !important;
+  height: 950px !important;
+  position: relative;
+  top: -2700px !important;
+  left: 1030px !important;
+}
+
+.profile-card .profile{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #EBF6FF;
+  width: 244px;
+  height: 60px;
+  border-radius: 16px;
+  position: relative !important;
+  top: -2650px !important;
+  left: 1090px;
+}
+
+.profile-card .profile img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  cursor: pointer;
+}
+
+.profile-card .profile .name h5{
+  margin-left: 10px;
+  font-size: 17px;
+  color: #000;
+  font-weight: 400 !important;
+  position: relative;
+  left: -110px;
+  cursor: text;
+}
+
+.profile-card .profile .name a{
+  margin-left: 10px;
+  font-size: 12px;
+  top: -30px !important;
+  color: rgb(56, 204, 253) !important;
+  font-weight: 400 !important;
+  position: relative;
+  left: -110px;
+  cursor: pointer;
+}
+
+.profile-card .profile .name .icon4{
+  font-size: 15px;
+  position: relative;
+  top: -55px !important;
+  margin-left: 63px;
+  color: #000 !important;
+  font-weight: 400 !important;
+  cursor: pointer;
+}
+
+.name{
+  position: relative;
+  top: 10px;
+}
+
+.main2 .main-card .logo-card{
+  /* Add margin-left*/
+  /* Add shadows to create the "card" effect */
+  border-radius: 15px;
+  height: 300px;
+  width: 24%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #fff;
+  position: relative;
+  top: -2620px !important;
+  margin-left: 1070px !important;
+}
+
+.main2 .main-card .logo-card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.425);
+}
+
+
+.main2 .main-card .logo-card img{
+  height: 230px !important;
+  position: relative;
+  left: 60px !important;
+  top: 10px;
+}
+
+.main2 .main-card .logo-card h5{
+  position: relative;
+  top: -28px !important;
+  margin-left: 120px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+
+.main2 .main-card .logo-card p{
+  position: relative;
+  top: -65px !important;
+  color: grey !important;
+  margin-left: 115px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.main2 .main-card .logo-card h1{
+  position: relative;
+  top: -55px !important;
+  color: #000 !important;
+  margin-left: -56px;
+  font-weight: 400;
+  font-size: 18px;
+}
